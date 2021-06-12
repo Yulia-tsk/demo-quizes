@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS question (
+    question_id UUID PRIMARY KEY NOT NULL,
+    prompt VARCHAR(250) NOT NULL,
+    answer VARCHAR(250) NOT NULL,
+    topic VARCHAR(100)NOT NULL,
+    difficulty VARCHAR (100) NOT NULL
+);
